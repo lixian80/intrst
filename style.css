@@ -20,9 +20,10 @@ label{
     border-radius: 3px;
 }
 
-input {
-    /* -webkit-appearance: none; */
-    -moz-appearance: textfield;
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
 }
 button {
     margin:1rem 4px;
@@ -31,6 +32,8 @@ button {
     border-radius: 0.5rem;
        }
 
-       #warning {
-           color: red;
-       }
+       
+
+       @media (max-width: 700px) {
+        /* PUT CSS HERE TO ALTER WEBSITE TO SINGLE COLUMN */
+     }       
