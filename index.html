@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interest Calculation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3 id="warning"></h3>
+    <h1>复利计算器</h1>
+    <div class="container">
+        
+        <label class="lable" for="currentV">本金:</label>
+        <input type="number"  placeholder="单位：元" id="currentV">
+        <label class="lable" for="interest">年利率:</label>
+        <input type="number"  placeholder="单位：%" id="interest">
+        <label class="lable" for="termCount">期数:</label>
+        <input type="number"  placeholder="单位：期" id="termCount">
+        <label class="lable" for="circleTime">期天数:</label>
+        <input type="number"  placeholder="单位：天" id="circleTime">
+        <label class="lable" for="gross">总收益:</label>
+        <input type="number"  placeholder="单位：元" id="gross">
+        
+    </div>
+        <button  onclick="window.location.reload()">清除数据</button>
+        <button  onclick="calculate()">开始计算</button>
+        
+<script src="script.js"></script>
+</body>
+</html>

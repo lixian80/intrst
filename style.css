@@ -1,0 +1,36 @@
+.container{
+    
+    margin: auto;
+    width: 400px;
+    text-align: end;
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    justify-content: center;
+    gap: 5px;
+}
+body {
+    text-align: center;
+    background-color: #f6f4e6;
+}
+
+label{
+    background-color: #fddb3a;
+    /* background-color: rgb(97, 171, 91); */
+    border: solid black 1px;
+    border-radius: 3px;
+}
+
+input {
+    /* -webkit-appearance: none; */
+    -moz-appearance: textfield;
+}
+button {
+    margin:1rem 4px;
+    background-color: #91d18b;
+    padding: 5px 20px;
+    border-radius: 0.5rem;
+       }
+
+       #warning {
+           color: red;
+       }
